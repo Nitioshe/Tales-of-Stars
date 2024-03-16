@@ -1,0 +1,6 @@
+FileVersion=1,0,3,0
+FileDescription=The story of a world that believes in the stars
+CompanyName=Niti Dev.
+ProductName=Tales of Stars
+InternalName=Tales of Stars
+LegalCopyright=Copyright Niti Dev. Tales of Stars

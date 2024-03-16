@@ -1,0 +1,21 @@
+{
+    "name": "Forest",
+    "description": "You are in a dense forest. The sunlight filters through the leaves, creating a dappled pattern on the forest floor.",
+    "monsters": [
+      {
+        "name": "Goblin",
+        "health": 20,
+        "attack": 5,
+        "exp_reward": 50,
+        "drop":{"stick":1,"bottle":1}
+      },
+      {
+        "name": "Slime",
+        "health": 15,
+        "attack": 3,
+        "exp_reward": 30,
+        "drop":{"slime gall":1}
+      }
+    ]
+  }
+  

@@ -1,0 +1,55 @@
+Sure, let's go through each function defined in the code:
+
+1. **Player Class:**
+    - **`__init__(self, name, race, player_class)`:** This is the constructor method for the Player class. It initializes various attributes of a player such as name, race, player class, level, health, attack, mana, agility, dexterity, experience, and experience needed for the next level.
+    
+    - **`display_stats(self)`:** This method displays the current stats of the player including name, level, race, class, health, attack, mana (if mage), agility (if rogue), dexterity (if samurai), and experience.
+    
+    - **`level_up(self)`:** This method is responsible for leveling up the player when they gain enough experience points. It increases the player's level, adjusts their stats, and plays a sound effect for leveling up.
+
+2. **Monster Class:**
+    - **`__init__(self, name, health, attack, exp_reward, drop)`:** Constructor method for the Monster class. It initializes attributes for a monster such as name, health, attack, experience reward, and drop table for items.
+
+    - **`display_stats(self)`:** This method displays the current stats of the monster including name, health, and attack.
+
+3. **Inventory Class:**
+    - **`__init__(self)`:** Constructor method for the Inventory class. Initializes an empty dictionary to store items.
+
+    - **`add_item(self, item_name, quantity)`:** Adds items to the inventory with specified quantities.
+
+    - **`remove_item(self, item_name, item_quantity)`:** Removes items from the inventory.
+
+    - **`display_inventory(self)`:** Displays the contents of the inventory.
+
+    - **`save_inventory(self)`:** Saves the inventory data to a JSON file.
+
+    - **`load_inventory(self)`:** Loads inventory data from a JSON file.
+
+4. **CraftingSystem Class:**
+    - **`__init__(self)`:** Constructor method for the CraftingSystem class. Initializes a dictionary of crafting recipes.
+
+    - **`craft(self, recipe_name, inventory)`:** Crafts an item if the player has the necessary ingredients in their inventory.
+
+    - **`list_possible_craft(self, inventory)`:** Lists possible crafts based on available ingredients in the inventory.
+
+5. **`jouer_bruit(sound_path)`:** This function plays a sound effect based on the provided sound path using Pygame.
+
+6. **`start_animation()`:** This function displays ASCII art animation and plays a sound effect to start the game.
+
+7. **`save_game(player)`:** Saves the player's game data to a JSON file.
+
+8. **`load_game(self)`:** Loads the saved game data from a JSON file.
+
+9. **`load_zone(zone_path)`:** Loads zone data from a JSON file and displays information about the zone including monsters and villagers.
+
+10. **`mars(player)`:** This function presents a scenario where the player encounters an event involving an incantation. If the correct incantation is provided, it loads a specific zone (mars.json).
+
+11. **`Bank(player, inventory, CraftingSystem, player_zone)`:** This function simulates interaction with a bank in the game, allowing the player to deposit, withdraw, or view their inventory.
+
+12. **`Adventurers_guild(player, inventory, CraftingSystem, player_zone)`:** Simulates interaction with an adventurers' guild, allowing the player to speak with NPCs, see their inventory, go somewhere else, or craft items.
+
+13. **`Forest(player, inventory, CraftingSystem, player_zone)`:** Simulates encounters in the forest zone, where the player battles monsters. It allows the player to save the game, quit, or continue exploring the forest.
+
+14. **`battle(player, monster, player_zone, inventory)`:** Simulates a battle between the player and a monster. It handles various player actions such as physical attacks, magic attacks, healing, etc.
+
+15. **`main(player_zone)`:** The main function of the game that orchestrates the game flow, including character creation, introduction, training, forest exploration, and interaction with various zones and NPCs.

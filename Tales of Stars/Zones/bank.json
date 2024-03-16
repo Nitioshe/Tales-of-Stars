@@ -1,0 +1,12 @@
+{
+  "name": "Tettno's Bank",
+  "description": "You are in Tettno's bank. You only see a strong looking guy behind a desk, waiting",
+  "villagers": [
+    {
+      "name": "Aventurine",
+      "title":"Banker",
+      "health": 560,
+      "attack": 2560
+    }
+  ]
+}

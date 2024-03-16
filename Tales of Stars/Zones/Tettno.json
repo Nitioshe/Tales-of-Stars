@@ -1,0 +1,13 @@
+{
+    "name": "Tettno",
+    "description": "You are in the fortress of Tettno, the town of departure and outpost in the cursed land",
+    "villagers": [
+      {
+        "name": "Sir Bertram Veridius",
+        "title":"Commander of the fortress",
+        "health": 20,
+        "attack": 50
+      }
+    ]
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "name": "Lato",
+    "description": "Capital of the continent",
+    "villagers": [
+      {
+        "name": "Magie",
+        "title":"Archbishop",
+        "health": 9999,
+        "attack": 0
+      }
+      
+    ]
+  }
